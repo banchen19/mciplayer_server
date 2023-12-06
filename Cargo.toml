@@ -1,0 +1,28 @@
+[package]
+name = "mciplayer_server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# 基础库
+serde = { version = "1.0", features = ["derive"] }
+
+# yaml库
+serde_yaml = "0.9.27"
+
+# json库
+serde_json = "1.0"
+
+# 加密库
+rand = "0.8.4"
+
+# 全局静态变量库
+lazy_static = "1.4"
+
+# 异步库
+tokio = { version = "1", features = ["full"] }
+
+# rocket网络框架
+rocket = "=0.5.0-rc.3"

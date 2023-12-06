@@ -1,0 +1,8 @@
+api_port: 20103
+default_money: 0
+key_mode: AES-128
+multiple_economies: 滑稽币
+sql_mode: sqlite3
+whitelist: true
+ws_prot: 20104
+x-api-key: IbIltBV4Zh79ahR2
